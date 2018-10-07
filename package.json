@@ -1,0 +1,42 @@
+{
+  "name": "firebase-chat",
+  "version": "1.0.0",
+  "description": "A real-time chat application built with React + Firebase",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jactorrez/firebase-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "realtime",
+    "react",
+    "redux"
+  ],
+  "author": "Javier Torrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jactorrez/firebase-chat/issues"
+  },
+  "homepage": "https://github.com/jactorrez/firebase-chat#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.116",
+    "@types/react": "^16.4.15",
+    "@types/react-dom": "^16.0.8",
+    "ts-loader": "^5.2.1",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
